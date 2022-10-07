@@ -318,13 +318,14 @@
   padding: 20px;
   box-sizing: border-box;
   width: 100%;
-  background-color: white;
-  border-left: 7px solid rgb(109 45 231);
+  background-color: black;
+  border: 2px solid rgb(109 45 231);
   box-shadow: 0 0.125rem 0.5625rem 0 rgb(109 45 231);
 }
 .main-dash h1 {
   font-size: 20px;
   font-weight: 700;
+  color: white;
 }
 .main-dash h1 svg {
   font-size: 15px;
@@ -355,19 +356,23 @@
   width: 100%;
 }
 .col .row p {
+  color: white;
   font-size: 16px;
   font-weight: 500;
 }
 .col .row h3 {
+  color: white;
   color: rgb(109 45 231);
   font-weight: 300;
   font-size: 22px;
 }
 .col .row h3 a {
+  color: white;
   font-size: 14px;
   margin-left: 10px;
 }
 .col .row h4 {
+  color: white;
   font-size: 14px;
   font-weight: 400;
 }

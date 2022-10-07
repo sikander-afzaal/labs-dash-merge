@@ -14,7 +14,11 @@
   align-items: center;
 }
 .account .row h1 {
+  color: white;
   font-size: 34px;
+}
+.input-div strong {
+  color: white;
 }
 .btn-div {
   display: flex;
@@ -30,7 +34,7 @@
   font-size: 18px;
 }
 .btn-div .inverse {
-  color: black;
+  color: white;
   background-color: transparent;
   border: 2px solid rgb(109 45 231);
 }

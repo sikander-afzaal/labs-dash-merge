@@ -19,10 +19,11 @@
   font-size: 14px;
 }
 .session table td {
-  background-color: hsla(261, 79%, 54%, 0.4);
+  background-color: rgb(109 45 231);
   height: 50px;
   padding-left: 10px;
   font-size: 14px;
+  color: white;
 }
 .session .aqua-btn {
   width: 200px;
