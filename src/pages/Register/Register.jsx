@@ -40,20 +40,6 @@ const Register = () => {
               <img src="assets/google.png" alt="google" />
               Continue with Google
             </button>
-
-            <span className="register__topText">
-              Or connect MetaMask or TrustWallet:
-            </span>
-
-            <button className="register__signOption register__metamask">
-              <img src="assets/metamask.png" alt="metamask" />
-              Connect MetaMask
-            </button>
-
-            <button className="register__signOption register__trustwallet">
-              <img src="assets/trustwallet.svg" alt="trustwallet" />
-              TrustWallet
-            </button>
           </div>
         </div>
 
