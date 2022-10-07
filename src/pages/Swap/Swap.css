@@ -15,8 +15,7 @@
   min-width: 80px !important;
   font-size: 15px !important;
 }
-.swap-page .disabled {
-  background-color: gray;
+.swap-page .aqua-btn {
   color: white;
   max-width: 200px;
   height: 40px;
