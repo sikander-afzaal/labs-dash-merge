@@ -41,7 +41,7 @@ export default function Inventory() {
               onClick={() => navigate(-1)}
             />
 
-            <img src="assets/logo-gif.gif" alt="logo" />
+            <img src="/assets/logo-gif.gif" alt="logo" />
           </div>
 
           <div
@@ -134,7 +134,7 @@ export default function Inventory() {
               className={({ isActive }) => {
                 return isActive ? "inventory__selected" : "";
               }}
-              to={"/inventory/settings"}
+              to={"/inventory/settings/"}
             >
               <FontAwesomeIcon icon={faGear} />
               <span>Settings</span>
@@ -254,7 +254,7 @@ export default function Inventory() {
             className={({ isActive }) => {
               return isActive ? "inventory__selected" : "";
             }}
-            to={"/inventory/settings"}
+            to={"/inventory/settings/"}
           >
             <FontAwesomeIcon icon={faGear} />
             <span>Settings</span>

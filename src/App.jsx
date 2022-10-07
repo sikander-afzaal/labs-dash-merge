@@ -13,6 +13,14 @@ import Swap from "./pages/Swap/Swap";
 import Activity from "./pages/Activity/Activity";
 import Apps from "./pages/Apps/Apps";
 import Terms from "./pages/Terms/Terms";
+import Settings from "./pages/Settings/Settings";
+import Account from "./pages/Account/Account";
+import AccountPwd from "./pages/AccountPwd/AccountPwd";
+import TwoFactor from "./pages/TwoFactor/TwoFactor";
+import Socials from "./pages/Socials/Socials";
+import Session from "./pages/Session/Session";
+import Application from "./pages/Application/Application";
+import Log from "./pages/Log/Log";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -37,6 +45,15 @@ const App = () => {
           <Route path="swap" element={<Swap />} />
           <Route path="activity" element={<Activity />} />
           <Route path="app" element={<Apps />} />
+          <Route path="settings" element={<Settings />}>
+            <Route path="" element={<Account />} />
+            <Route path="password" element={<AccountPwd />} />
+            <Route path="two-factor" element={<TwoFactor />} />
+            <Route path="social" element={<Socials />} />
+            <Route path="session" element={<Session />} />
+            <Route path="application" element={<Application />} />
+            <Route path="log" element={<Log />} />
+          </Route>
         </Route>
       </Routes>
     </Router>
