@@ -2,15 +2,16 @@
   display: none;
   position: absolute;
   top: 140%;
-  background-color: white;
-  color: black;
+  background-color: black;
+  border: 1px solid rgb(109 45 231);
+  color: white;
   width: 150px;
-  padding-block: 0.5rem;
   gap: 0.5rem;
   flex-direction: column;
   z-index: 66;
   right: 0;
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
@@ -21,9 +22,11 @@
 .profileDropdown > span {
   width: 100%;
   text-align: center;
-  padding-block: 0.5rem;
+  padding-block: 0.7rem;
 }
-
+.profileDropdown span:last-of-type {
+  border: none;
+}
 .profileDropdown > span:hover {
-  background-color: hsla(0, 0%, 0%, 0.2);
+  background-color: rgb(109 45 231);
 }
